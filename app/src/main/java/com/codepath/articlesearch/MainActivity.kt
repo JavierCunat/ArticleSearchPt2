@@ -30,7 +30,7 @@ private const val ARTICLE_SEARCH_URL = "https://api.nytimes.com/svc/search/v2/ar
 class MainActivity : AppCompatActivity() {
     private lateinit var articlesRecyclerView: RecyclerView
     private lateinit var binding: ActivityMainBinding
-    private val articles = mutableListOf<Article>()
+    private val articles = mutableListOf<DisplayArticle>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
